@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navBarHeight">40dp</dimen>
+    <dimen name="marginSize">16dp</dimen>
+    <dimen name="navBarTitleSize">22sp</dimen>
+    <dimen name="titleSize">18sp</dimen>
+    <dimen name="inputViewHeight">40sp</dimen>
+    <dimen name="infoSize">14sp</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+    <dimen name="radius">5dp</dimen>
+    <dimen name="marginTabSize">4dp</dimen>
+    <dimen name="albumMarginSize">4dp</dimen>
+    <dimen name="itemIconSize">56dp</dimen>
+
+
+</resources>

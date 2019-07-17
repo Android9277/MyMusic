@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Activity切换中动画持续时间
+    <integer name="anim_duration">200</integer>
+</resources>

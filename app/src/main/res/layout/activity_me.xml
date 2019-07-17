@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/nav_bar" />
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginSize"
+        android:padding="12dp"
+        android:gravity="center_horizontal"
+        android:text="用户名:"
+        android:textSize="@dimen/titleSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/marginSize"
+        android:gravity="center_horizontal"
+        android:onClick="onChangeClick"
+        android:padding="12dp"
+        android:text="修改密码"
+        android:textColor="#1196EE"
+        android:textSize="18sp" />
+
+    <Button
+        style="@style/commitBtn"
+        android:layout_marginTop="@dimen/marginSize"
+        android:onClick="onLogoutClick"
+        android:text="退出登录" />
+</LinearLayout>
